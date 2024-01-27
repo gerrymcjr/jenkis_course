@@ -1,4 +1,4 @@
-package com.example;
+\package com.example;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -27,6 +27,11 @@ public class TestGreeter {
     assertThat(greeter.greet(someone), containsString(someone));
   }
   
+  @Test
+  public void intentionally_falied(){
+	assertTrue(false);
+  } 
+ 
 
   @Test
   public void greetShouldIncludeGreetingPhrase() {
