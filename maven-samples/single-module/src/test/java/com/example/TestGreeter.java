@@ -1,4 +1,4 @@
-\package com.example;
+package com.example;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -29,7 +29,7 @@ public class TestGreeter {
   
   @Test
   public void intentionally_falied(){
-	assertTrue(false);
+    assertTrue(false);
   } 
  
 
